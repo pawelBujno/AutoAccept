@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIAddon>
+	<AutoStart>true</AutoStart>
+	<Forms>
+		<Item>
+			<Id>Main</Id>
+			<Form href="Widgets/Form.xdb#xpointer(/WidgetForm)"/>
+		</Item>
+		<Item>
+			<Id>Template</Id>
+			<Form href="Widgets/Templates/Main.xdb#xpointer(/WidgetForm)"/>
+		</Item>
+		<Item>
+			<Id>Form</Id>
+			<Form href="Widgets/Templates/Form.xdb#xpointer(/WidgetForm)"/>
+		</Item>
+	</Forms>
+	<MainFormId>Main</MainFormId>
+	<Name>AutoAccept</Name>
+	<localizedNameFileRef href="name.txt"/>
+	<localizedDescFileRef href="desc.txt"/>
+	<ScriptFileRefs>
+		<Item href="Locales/localization.lua"/>
+		<Item href="Libs/LibDnD.lua"/>
+		<Item href="Libs/Utils.lua"/>
+		<Item href="Libs/Chat.lua"/>
+		<Item href="Libs/ScriptAdvancedToString.lua"/>
+		<Item href="Libs/ScriptChatLogExt.lua"/>
+		<Item href="SettingsForm.luac"/>
+		<Item href="AutoAccept.luac"/>
+	</ScriptFileRefs>
+<addon_name>AutoAccept</addon_name>
+</UIAddon>
